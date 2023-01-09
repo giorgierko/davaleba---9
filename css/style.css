@@ -1,0 +1,187 @@
+.conteiner
+{
+
+    width: 1920px;
+    border: 2px solid red;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+header
+{
+
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 140px;
+    padding-top: 52px;
+    padding-right:  141px; ;
+    padding-bottom: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid green;
+}
+
+ul {
+
+    display: flex;
+    gap: 70px;
+}
+
+/* დასრულდა ჰედერი */
+
+
+section
+{
+    width: 86%;
+    height: 613px;
+    margin: 0 auto 60px auto;
+    border: 2px black solid;
+    background-image: url("../image/სლაიდერი3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+/* დასრულდა სექცია */
+
+.art
+{
+
+    width: 86%;
+    margin:0 auto;
+    border: 2px black solid;
+    /* display: flex; */
+} 
+.art1
+{
+
+    margin-bottom: 149px;
+}
+
+.cards
+{
+
+    width: 100%;
+    margin: 70px auto 0px auto;
+    border: 2px blue solid;
+    display: flex;
+   
+    justify-content: space-between;
+    
+    
+
+    
+    
+}
+
+.carddiv
+{
+
+    width: 28%;
+    height: 563px;
+    border: 2px gold solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+
+}
+
+.foto
+{
+
+    width: 100%;
+    border: 2px black solid;
+    
+}
+
+.arttext
+{   border: 2px blue solid ;
+    width: 95%;
+    margin-top: 20px;
+    /* მარჯინ ტოპი მუშაობს თუ არა ვერ გადავამოწმე. დაშრება 20 პიქსელია? */
+    margin-left: 12px;
+    
+}
+
+.artetxt1
+{
+    /* width: 40%; */
+    /* ამ კოდმა ხომ ტექსტს უნდა მისცეს წესით სიგანე? 
+    რეალურად იმ ბლოკს წელავს სადაც ტექსტი წერია. ვერ ვხვდები რატომ? */
+    margin-bottom: 35px;
+    margin-top: 154px;
+    margin-right: 13px;
+    text-align: end;
+}
+/* დამთავრდა არტიკლები */
+
+footer{
+width: 100%;
+background-color: #2E2E2E;
+display: flex;
+margin-top: 75px;
+justify-content: space-between;
+padding-left: 140px;
+padding-top: 49px;
+padding-bottom: 63px;
+padding-right: 140px;
+align-items: center;
+
+}
+
+.fa-facebook
+{
+    color: white;
+    height: 100%;
+    margin-right: 38px;
+    
+      /* სოც ქსელების იკონების ზომა როთი ვაკონტროლო?
+    სისქის ან სიმაღლის გაზრდა როგორ შეიძლება? */
+    
+    
+    
+}
+.fa-square-instagram
+{
+    height: 100%;
+    color: white; 
+   
+      /* სოც ქსელების იკონების ზომა როთი ვაკონტროლო?
+    სისქის ან სიმაღლის გაზრდა როგორ შეიძლება? */
+
+   
+   
+}
+
+.foticons
+{
+   
+    display: flex;
+    border:  2px red solid;
+    flex-direction: row-reverse;
+   
+}
+
+
+
+.footertetxt
+
+{
+    color: white;
+}
+
+
+h3
+{
+    color: white;
+}
+
+
+/* დამთავრდა ფუტერი */
+
+

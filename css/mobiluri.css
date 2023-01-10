@@ -1,0 +1,117 @@
+@media  (max-width: 480px) 
+    {
+
+
+        header {
+
+        width: 100%;
+        padding-left: 27px;
+        padding-right:  37px; 
+        padding-bottom: 22px;
+        padding-top: 13px;
+        align-items: flex-start;
+        
+        }  
+
+        ul {
+            display: none;
+        }
+
+        .fa-magnifying-glass {
+           
+            border: 2px blue solid;
+            margin-top: 4px;
+            
+
+        }
+        section
+        {
+            width: 100%;
+            height: 253px;
+            margin: 0 auto 91px auto;
+            background-image: url("../image/mobsecfoto.png")
+            
+
+        }
+
+
+        .popstat {
+            /* width: 60%; */
+            text-align: center;
+            border: 2px gold solid;;
+        }
+
+           .cards
+        
+        {
+            margin: 32px auto 0px auto; 
+            flex-wrap: wrap; 
+        }
+
+        .carddiv
+        {
+            width: 100%;
+        }
+
+        .arttext
+        {
+            margin-top: 10px;
+             /* მარჯინ ტოპი მუშაობს თუ არა ვერ გადავამოწმე. დაშრება 10 პიქსელია? */
+        }
+
+       .artetxt1
+       {
+        margin-top: 80px;
+       }
+
+       .mosaSorebeli
+       {
+        display: none;
+       }
+
+       .art1
+{
+
+    margin-bottom: 72px;
+}
+
+
+footer
+{
+    flex-direction: column;
+    gap: 33px; 
+    text-align: center;
+    padding-left: 42px;
+    padding-top: 18px;
+    padding-bottom: 23px;
+    padding-right: 39px;
+     
+}
+footer > .fottext1
+{
+    order: 2; 
+}
+
+footer > .fottext2
+{
+    order: 1; 
+}
+
+
+footer > .foticons
+{
+    order: 3; 
+}
+
+
+.footerpic 
+
+{
+    display: none;
+}
+
+
+
+
+    }
+
